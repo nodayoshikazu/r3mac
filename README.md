@@ -47,8 +47,12 @@ To compile the mac version:
 compiler suite and SDL2* installed through brew.
 
 ```
-brew install sdl2 sdl2_mixer sdl_net
-then make
+$ brew install sdl2 sdl2_mixer sdl_net
+$ then make
 ```
 
+To run an example (you need a test code file as an arg)
+```
+./r3mac .r3/test/test.r3
+```
 
