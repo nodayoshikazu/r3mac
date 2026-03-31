@@ -44,13 +44,11 @@ Can compile in emscripten too. emscriptenbuild.sh is the make.
 ### MAC
 
 To compile the mac version:
-
-A separate files, r3mac.cpp and r3graf.cpp.
-
-```
-c++  -Ofast -fpermissive   -c -o grafmac.o grafmac.cpp
-c++  -Ofast -fpermissive   -c -o r3mac.o r3mac.cpp
-g++ grafmac.o r3mac.o  -o r3mac -lSDL2main -lSDL2 -lSDL2_mixer
-```
-
 compiler suite and SDL2* installed through brew.
+
+```
+brew install sdl2 sdl2_mixer sdl_net
+then make
+```
+
+
